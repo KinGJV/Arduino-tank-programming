@@ -29,15 +29,15 @@ enum Modo analizar(char command[N]) {
   }
 
    if (startsWith("I", command)){
-      Serial.println("Entrando en modo espera.");
+      Serial.println("Entrando en modo giro izquierda.");
       return giroiz;
   }
    if (startsWith("D", command)){
-      Serial.println("Entrando en modo espera.");
+      Serial.println("Entrando en modo giro derecha.");
       return giroder;
   }
    if (startsWith("B", command)){
-      Serial.println("Entrando en modo espera.");
+      Serial.println("Entrando en modo marcha atras.");
       return marchatras;
   }
 }
